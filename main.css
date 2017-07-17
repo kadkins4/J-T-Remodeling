@@ -105,7 +105,7 @@ span {
 	background-size: cover;
 }
 
-.about .container {
+.container {
 	width: 950px;
 }
 
@@ -132,9 +132,12 @@ span {
 /* END OF ABOUT US*/
 /* OUR WORK */
 .work {
-	background-color: rgba(61, 72, 90, .5); /* find new color check trans textures - simple pattern */
+	background-color: #D1D1D1; /* find new color check trans textures - simple pattern */
 	border-bottom: 35px solid black;
 	padding: 20px 0 40px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 
@@ -152,14 +155,14 @@ span {
 	display: inline-block;
 	padding: 5px;
 	box-shadow: 2px 2px 4px 4px black;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 }
 
 .work img:hover {
-    box-shadow: none;
-    padding: 0;
-    box-shadow: 5px 5px 2px 2px black;
-    transition: 1.5s;
+  box-shadow: none;
+  padding: 0;
+  box-shadow: 5px 5px 2px 2px black;
+  transition: 1.5s;
 }
 
 .thumbnails {
