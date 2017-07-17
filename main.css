@@ -3,7 +3,7 @@
 
 .main {
 	background-color: rgba(163, 150, 95, .5);
-	background: url(bg5.jpg) center center;
+	background: url(images/bg5.jpg) center center;
 	background-size: cover;
 	padding-bottom: 275px;
 	border-bottom: 35px solid black;
@@ -60,7 +60,7 @@ li {
 
 li a {
 	color: rgba(2, 60, 158, .7);
-	font-weight: 700;	
+	font-weight: 700;
 }
 
 li a:hover {
@@ -99,9 +99,9 @@ span {
 
 .about {
 	text-align: center;
-	border-bottom: 3px solid black;
+	border-bottom: 35px solid black;
 	padding: 20px 0 40px 0;
-	background: url("bg6.jpg") no-repeat center center fixed;
+	background: url("images/bg6.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -132,13 +132,14 @@ span {
 /* END OF ABOUT US*/
 /* OUR WORK */
 .work {
-	background-color: rgba(61, 72, 90, .5);
-	border-bottom: 3px solid black;
+	background-color: rgba(61, 72, 90, .5); /* find new color check trans textures - simple pattern */
+	border-bottom: 35px solid black;
+	padding: 20px 0 40px 0;
 }
 
 
 .work h2 {
-	margin: 70px auto 30px;
+	margin: 70px auto 50px;
 	font-family: 'Bad Script', cursive;
 	text-align: center;
 	font-weight: 700;
@@ -151,16 +152,10 @@ span {
 	display: inline-block;
 	padding: 5px;
 	box-shadow: 2px 2px 4px 4px black;
+	border-radius: 50%;
 }
 
 .work img:hover {
-    position: relative;
-    top: -25px;
-    left: -35px;
-    width: 400px;
-    height: auto;
-    display: block;
-    z-index: 999;
     box-shadow: none;
     padding: 0;
     box-shadow: 5px 5px 2px 2px black;
@@ -173,5 +168,38 @@ span {
 }
 
 /*QUOTE*/
+.request-quote {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.request-quote h2 {
+	text-align: center;
+}
 
+.KLA {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  width: 45%;
+  height: 7%;
+  margin: 5px 0 5px 0;
+  text-decoration: none;
+  color: #393C3E;
+  text-transform: uppercase;
+  padding: 7px 0 0 0;
+}
+
+.KLA:hover {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  color: #64686B;
+  border-radius: 50%;
+  transition: color 2s linear .5s, border-radius 2s linear .5s;
+	text-decoration: none;
+}
+
+.KLA:active {
+  color: white;
+}
