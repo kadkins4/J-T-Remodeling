@@ -131,6 +131,7 @@ span {
 
 /* END OF ABOUT US*/
 /* OUR WORK */
+
 .work {
 	background-color: #D1D1D1; /* find new color check trans textures - simple pattern */
 	border-bottom: 35px solid black;
@@ -140,30 +141,46 @@ span {
 	align-items: center;
 }
 
+.wrapper {
+	width: 850px;
+	display: flex;
+	flex-direction: row;
+}
 
 .work h2 {
-	margin: 70px auto 50px;
+	margin: 50px auto 20px;
 	font-family: 'Bad Script', cursive;
 	text-align: center;
 	font-weight: 700;
 }
 
-.work img {
+.center {
+	text-align: center;
+}
+
+.left, .right {
+	text-align: justify;
+	width: 250px;
+}
+
+.center-photo {
+	border: 1px solid white;
+	margin: 5px 7px;
+	height: 250px;
+	width: 225px;
+	background-size: auto;
+	transform: rotate(90deg);
+}
+
+/*.work img {
 	height: 250px;
 	width: 250px;
 	transform: rotate(90deg);
 	display: inline-block;
 	padding: 5px;
 	box-shadow: 2px 2px 4px 4px black;
-	/*border-radius: 50%;*/
-}
-
-.work img:hover {
-  box-shadow: none;
-  padding: 0;
-  box-shadow: 5px 5px 2px 2px black;
-  transition: 1.5s;
-}
+	border-radius: 50%;
+}*/
 
 .thumbnails {
 	margin: 20px 0 20px 0;
@@ -179,6 +196,10 @@ span {
 
 .request-quote h2 {
 	text-align: center;
+}
+
+.kla-link {
+
 }
 
 .KLA {
